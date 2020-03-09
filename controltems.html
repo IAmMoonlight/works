@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<link href="libs/font-awesome/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="libs/slick/slick.css"> 
+	<link rel="stylesheet" href="libs/slick/slick-theme.css"> 
+	<link rel="stylesheet" href="css/styles.min.css">
+
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<div class="header">
+				<div class="logo"><a href="index.html">Лисин Сергей</a></div>
+				<nav>
+					<menu>
+						<li><a href="index.html">Все работы</a></li>
+					</menu>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="my_works_block" id="works">
+		<div class="wrapper">
+			<div class="one_work">
+				
+				<div class="one_work__description">
+					<div class="one_work__description--h2">Простая система управления наличием товаров</div>
+					<div class="one_work__description--task">Задача</div>
+					<div class="one_work__description--task__text">Тренировка навыков в создании систем управления товарами в магазине.
+					Необходимо реализовать:
+						<ol>
+							<li>
+								Страница поставок. В данном блоке необходимо:
+								<ol>
+									<li>Предоставить пользователю возможность выбора даты поставки</li>
+									<li>Предоставить пользователю возможность выбора названия товара из списка товаров</li>
+									<li>Предоставить пользователю возможность указать количество поставленного товара</li>
+									<li>Предоставить пользователю возможность выбрать поставщика товаров из списка поставщиков</li>
+									<li>Предоставить возможность поиска среди поставок по названию товара</li>
+									<li>Предоставить возможность фильтрации поставок по дате поставки(конкретная дата, промежуток времени), по цене(от указанной, до указанной, в промежутке между ценами), по названию товара</li>
+									<li>Предоставить пользователю возможность редактирования/удаления уже созданной поставки товара</li>
+								</ol>
+							</li>
+							<li>
+								Страница товаров. В данном блоке необходимо:
+								<ol>
+									<li>Предоставить пользователю возможность выбора типа товара</li>
+									<li>Предоставить пользователю возможность указания названия товара</li>
+									<li>Предоставить пользователю возможность указания единицы измерения товара</li>
+									<li>Предоставить пользователю возможность указания цены товара</li>
+									<li>Предоставить пользователю возможность создания нового типа товаров</li>
+									<li>Предоставить пользователю возможность редактирования/удаления уже созданного товара</li>
+									<li>Предоставить пользователю возможность получения отчетов: общее количество поставок в месяц, количество поставок за месяц каждого товара</li>
+								</ol>
+							</li>
+							<li>
+								Страница поставщиков. В данном блоке необходимо:
+								<ol>
+									<li>Предоставить пользователю возможность указания названия, адреса, телефона, email компании</li>
+									<li>Предоставить пользователю возможность редактирования/удаления выбранного поставщика</li>
+								</ol>
+							</li>
+						</ol>
+					</div>
+					<div class="one_work__description--btn"><a href="#contact">Хочу такой сайт</a></div>
+				</div>
+				<div class="one_work__slider">
+					<div class="slider-for">
+						<div class="image" style="background: url('images/works/controltems/Screenshot_1.png')"></div>
+						<div class="image" style="background: url('images/works/controltems/Screenshot_2.png')"></div>
+						<div class="image" style="background: url('images/works/controltems/Screenshot_3.png')"></div>
+						<div class="image" style="background: url('images/works/controltems/Screenshot_4.png')"></div>
+						<div class="image" style="background: url('images/works/controltems/Screenshot_5.png')"></div>
+						<div class="image" style="background: url('images/works/controltems/Screenshot_6.png')"></div>
+					</div>
+					<div class="slider-nav">
+						<div class="image" style="background: url('images/works/controltems/Screenshot_1.png')"></div>
+						<div class="image" style="background: url('images/works/controltems/Screenshot_2.png')"></div>
+						<div class="image" style="background: url('images/works/controltems/Screenshot_3.png')"></div>
+						<div class="image" style="background: url('images/works/controltems/Screenshot_4.png')"></div>
+						<div class="image" style="background: url('images/works/controltems/Screenshot_5.png')"></div>
+						<div class="image" style="background: url('images/works/controltems/Screenshot_6.png')"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact_me_block" id="contact">
+		<div class="wrapper">
+			<div class="contact_me">
+				<div class="h2">Напишите мне</div>
+				<div class="line"></div>
+				<div class="description">У вас есть интересный проект? Я готов пройти весь путь создания сайта вместе с вами с нуля до результата.</div>
+
+				<div class="contact_me_form">
+					<form method="POST"> 
+						<div class="form_block">
+							<input type="text" name="username" required placeholder="Имя">
+						</div>
+						<div class="form_block">
+							<input type="email" name="email" required placeholder="Email">
+						</div>
+						<div class="form_block">
+							<textarea name="message" placeholder="Сообщение"></textarea>
+						</div>
+						<div class="form_block">
+							<input type="submit" value="Отправить сообщение">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="wrapper">
+			<div class="footer">
+				<div class="btns_social">
+					<div class="btn_social">
+						<a href="#"><i class="fab fa-vk"></i></a>
+					</div>
+					<div class="btn_social">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+					</div>
+				</div>
+				<div class="copy">
+					&copy; 2020 Лисин Сергей
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="js/libs.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script> 
+	<script src="js/onload_work.js"></script>
+</body>
+</html>

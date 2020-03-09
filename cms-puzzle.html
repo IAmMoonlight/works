@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<link href="libs/font-awesome/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="libs/slick/slick.css"> 
+	<link rel="stylesheet" href="libs/slick/slick-theme.css"> 
+	<link rel="stylesheet" href="css/styles.min.css">
+
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<div class="header">
+				<div class="logo"><a href="index.html">Лисин Сергей</a></div>
+				<nav>
+					<menu>
+						<li><a href="index.html">Все работы</a></li>
+					</menu>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="my_works_block" id="works">
+		<div class="wrapper">
+			<div class="one_work">
+				<div class="one_work__description">
+					<div class="one_work__description--h2">Сайт для фитнес-клуба</div>
+					<div class="one_work__description--task">Задача</div>
+					<div class="one_work__description--task__text">Создать сайт для фитнес-клуба. Техническое задание заказчика включало в себя
+						<ol>
+							<li>Главная страница - landing page, задача которой привлекать новых покупателей</li>
+							<li>Также было необходимо реализовать блоговую систему для публикаций тематических статей</li>
+						</ol>
+						Для реализации данной задачи были предприняты следующие действия:
+						<ol>
+							<li>Вместе с заказчиком был определен дизайн сайта</li>
+							<li>Макет был адаптивно сверстан</li>
+							<li>Для повышения скорости работы было принято решение создать самописную CMS. Функции CMS:</li>
+								<ol>
+									<li>Главная страница проекта - landing page. Для реализации данной задачи необходимо внедрить создание шаблонов для страниц</li>
+									<li>Так как на всех контентных страницах сайта используется слайдер, то необходимо создать возможность загрузки изображений для слайдера, а так же создание нескольких слайдеров для возможности их использования в любом месте сайта</li>
+									<li>Блоговая составляющая. Необходимо иметь возможность создавать, изменять и удалять записи</li>
+									<li>Создание категорий для записей</li>
+									<li>Поиск записей по заголовку, категории, дате публикации(по конкретной дате, в промежутке времени)</li>
+									<li>Пользователи могут видеть только записи, разрешенные к просмотру</li>
+									<li>Поддержка ЧПУ</li>
+									<li>Разделение пользовательской части и части администратора</li>
+									<li>Смена контактной информации из панели администратора</li>
+									<li>Необходимо создать возможность добавлять новых пользователей, обновлять их данные и удалять из базы данные информацию о них</li>
+									<li>Так как поддержкой сайта может заниматься группа человек, то необходимо реализовать разделение прав пользователей</li>
+									<li>Для более успешного ведения сайта необходимо получать данные о работе сайта. Для этого создана возможность составления отчетов: статистика просмотра статей за год, статистика добавления статей за год, статистика посещения уникальных пользователей за год</li>
+									<li>Страница 404 должна отправлять правильные заголовки браузеру</li>
+								</ol>
+						</ol>
+					</div>
+					<div class="one_work__description--time">Сроки</div>
+					<div class="one_work__description--time__text">Установленный срок работы 14 дней</div>
+					<div class="one_work__description--price">Бюджет</div>
+					<div class="one_work__description--price__text">Я не могу распространять условия по данному сайту по просьбе заказчика. Обычно такие проекты я делаю за 10 тысяч рублей</div>
+					<div class="one_work__description--btn"><a href="#contact">Хочу такой сайт</a></div>
+				</div>
+				<div class="one_work__slider">
+					<div class="slider-for">
+						<div class="image" style="background: url('images/works/cms-puzzle/Screenshot_4.png')"></div>
+						<div class="image" style="background: url('images/works/cms-puzzle/Screenshot_5.png')"></div>
+						<div class="image" style="background: url('images/works/cms-puzzle/Screenshot_6.png')"></div>
+						<div class="image" style="background: url('images/works/cms-puzzle/Screenshot_7.png')"></div>
+					</div>
+					<div class="slider-nav">
+						<div class="image" style="background: url('images/works/cms-puzzle/Screenshot_4.png')"></div>
+						<div class="image" style="background: url('images/works/cms-puzzle/Screenshot_5.png')"></div>
+						<div class="image" style="background: url('images/works/cms-puzzle/Screenshot_6.png')"></div>
+						<div class="image" style="background: url('images/works/cms-puzzle/Screenshot_7.png')"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact_me_block" id="contact">
+		<div class="wrapper">
+			<div class="contact_me">
+				<div class="h2">Напишите мне</div>
+				<div class="line"></div>
+				<div class="description">У вас есть интересный проект? Я готов пройти весь путь создания сайта вместе с вами с нуля до результата.</div>
+
+				<div class="contact_me_form">
+					<form method="POST"> 
+						<div class="form_block">
+							<input type="text" name="username" required placeholder="Имя">
+						</div>
+						<div class="form_block">
+							<input type="email" name="email" required placeholder="Email">
+						</div>
+						<div class="form_block">
+							<textarea name="message" placeholder="Сообщение"></textarea>
+						</div>
+						<div class="form_block">
+							<input type="submit" value="Отправить сообщение">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="wrapper">
+			<div class="footer">
+				<div class="btns_social">
+					<div class="btn_social">
+						<a href="#"><i class="fab fa-vk"></i></a>
+					</div>
+					<div class="btn_social">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+					</div>
+				</div>
+				<div class="copy">
+					&copy; 2020 Лисин Сергей
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="js/libs.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script> 
+	<script src="js/onload_work.js"></script>
+</body>
+</html>

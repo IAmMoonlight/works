@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<link href="libs/font-awesome/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="libs/slick/slick.css"> 
+	<link rel="stylesheet" href="libs/slick/slick-theme.css"> 
+	<link rel="stylesheet" href="css/styles.min.css">
+
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<div class="header">
+				<div class="logo"><a href="index.html">Лисин Сергей</a></div>
+				<nav>
+					<menu>
+						<li><a href="index.html">Все работы</a></li>
+					</menu>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="my_works_block" id="works">
+		<div class="wrapper">
+			<div class="one_work">
+				<div class="one_work__description">
+					<div class="one_work__description--h2">Вкусно Жить</div>
+					<div class="one_work__description--task">Создать сайт для сохранения рецептов.</div>
+					<div class="one_work__description--task__text">Было необходимо создать сайт для кулинарии. Для заказчика были важны следующие вещи:
+						<ol>
+							<li>Привлекательный дизайн</li>
+							<li>Возможность создания рецептов</li>
+							<li>Возможность категоризации рецептов</li>
+							<li>Возможность поиска рецептов по ингредиентам</li>
+						</ol>
+						Для реализации установленных требований были предприняты следующие действия:
+						<ol>
+							<li>С заказчиком был утвержден дизайн проекта</li>
+							<li>Создана верстка проекта. Требования к верстке: адаптивность, валидность согласно сервису W3C</li>
+							<li>Произведено внедрение данной верстки в Laravel</li>
+							<li>Произведено разделение сайта на пользовательскую и администраторскую часть</li>
+							<li>Была реализована блоговая составляющая. Это включает в себя просмотр всех записей, создание, редактирование и удаление записей</li>
+							<li>Была реализована возможность создания категорий записей для их более удобной сортировки</li>
+							<li>Была реализована возможность создания меток записей для более удобной фильтрации</li>
+							<li>Был реализован поиск, включающий возможность поиска по названию записи, категории и одной или нескольким меткам, прикрепленным к записи</li>
+						</ol>
+					</div>
+					<div class="one_work__description--time">Сроки</div>
+					<div class="one_work__description--time__text">Установленный срок работы 4 дня</div>
+					<div class="one_work__description--price">Бюджет</div>
+					<div class="one_work__description--price__text">Я не могу распространять условия по данному сайту по просьбе заказчика. Обычно такие проекты я делаю за 5 тысяч рублей</div>
+					<div class="one_work__description--btn"><a href="#contact">Хочу такой сайт</a></div>
+				</div>
+				<div class="one_work__slider">
+					<div class="slider-for">
+						<div class="image" style="background: url('images/works/work-food/Screenshot_1.png')"></div>
+						<div class="image" style="background: url('images/works/work-food/Screenshot_2.png')"></div>
+						<div class="image" style="background: url('images/works/work-food/Screenshot_3.png')"></div>
+						<div class="image" style="background: url('images/works/work-food/Screenshot_4.png')"></div>
+						<div class="image" style="background: url('images/works/work-food/Screenshot_5.png')"></div>
+					</div>
+					<div class="slider-nav">
+						<div class="image" style="background: url('images/works/work-food/Screenshot_1.png')"></div>
+						<div class="image" style="background: url('images/works/work-food/Screenshot_2.png')"></div>
+						<div class="image" style="background: url('images/works/work-food/Screenshot_3.png')"></div>
+						<div class="image" style="background: url('images/works/work-food/Screenshot_4.png')"></div>
+						<div class="image" style="background: url('images/works/work-food/Screenshot_5.png')"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact_me_block" id="contact">
+		<div class="wrapper">
+			<div class="contact_me">
+				<div class="h2">Напишите мне</div>
+				<div class="line"></div>
+				<div class="description">У вас есть интересный проект? Я готов пройти весь путь создания сайта вместе с вами с нуля до результата.</div>
+
+				<div class="contact_me_form">
+					<form method="POST"> 
+						<div class="form_block">
+							<input type="text" name="username" required placeholder="Имя">
+						</div>
+						<div class="form_block">
+							<input type="email" name="email" required placeholder="Email">
+						</div>
+						<div class="form_block">
+							<textarea name="message" placeholder="Сообщение"></textarea>
+						</div>
+						<div class="form_block">
+							<input type="submit" value="Отправить сообщение">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="wrapper">
+			<div class="footer">
+				<div class="btns_social">
+					<div class="btn_social">
+						<a href="#"><i class="fab fa-vk"></i></a>
+					</div>
+					<div class="btn_social">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+					</div>
+				</div>
+				<div class="copy">
+					&copy; 2020 Лисин Сергей
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="js/libs.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script> 
+	<script src="js/onload_work.js"></script>
+</body>
+</html>

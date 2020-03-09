@@ -1,0 +1,40 @@
+@import "smart-grid.less";
+.one_work{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.one_work__slider{
+	.size(5);
+	background: #eee;
+	height: 300px;
+	margin-right: 20px;
+}
+
+.one_work__description{
+	width: calc(100 / 12 * 7);
+	font-family: "Raleway Bold";
+}
+.one_work__description--h2{
+	margin-bottom: 25px;
+	font-size: 30px;
+}
+.one_work__description--task,
+.one_work__description--time,
+.one_work__description--price{
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.one_work__description--task__text,
+.one_work__description--time__text,
+.one_work__description--price__text{
+	margin-bottom: 20px;
+	font-family: "Raleway";
+	font-size: 18px;
+}
+.one_work__description--btn{
+	width: 150px;
+	border: 1px solid #eee;
+	text-align: center;
+	padding: 10px;
+}
